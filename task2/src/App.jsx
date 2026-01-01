@@ -1,10 +1,10 @@
 import React from 'react'
-import DarkMode from './component/DarkMode/DarkMode'
+import Home from '../src/pages/Home.jsx'
 
 const App = () => {
   return (
     <div>
-      <DarkMode/>
+      <Home/>
     </div>
   )
 }

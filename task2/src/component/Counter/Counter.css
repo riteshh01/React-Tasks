@@ -1,0 +1,58 @@
+.counter-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f4f4f4;
+    padding: 20px 30px;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #111;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.count {
+  font-size: 24px;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+}
+
+/* CONDITIONAL COLORS */
+
+.btn.danger {
+  background: #e63946;
+  color: #fff;
+}
+
+.btn.success {
+  background: #51c955;
+  color: #fff;
+}
+
+/*  DARK MODE SUPPORT */
+
+body.dark .counter-container {
+  background: #1e1e1e;
+}
+
+body.dark .btn {
+  background: #ffffff;
+  color: #111;
+}
+
+body.dark span {
+  color: #ffffff;
+}
