@@ -1,1 +1,10 @@
 In this we are going to learn about Events and State Management in react
+
+
+Short Theory Summary (Exam / Viva Ready)
+	•	Events user interactions ko handle karte hain
+	•	State component ke data ko represent karti hai
+	•	Events state ko change karte hain
+	•	State UI ko control karti hai
+	•	React automatically UI ko re-render karta hai
+	•	Ye approach app ko predictable aur maintainable banati hai
