@@ -1,0 +1,1 @@
+In this we are going to learn about Events and State Management in react

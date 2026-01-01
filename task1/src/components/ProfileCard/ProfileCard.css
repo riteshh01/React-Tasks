@@ -1,0 +1,17 @@
+.main-div{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 5px;
+    height: 190px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-div h2, .main-div p{
+    margin: 2px;
+}
+
+h2{
+    color: blue;
+}
