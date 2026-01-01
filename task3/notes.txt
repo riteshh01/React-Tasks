@@ -1,0 +1,21 @@
+Phase 3 Task: "The Animated Grocery List" (CRUD Basics)
+Aapko ek aisi app banani hai jisme user items add kar sake aur delete kar sake. Lekin hum ise thoda "Unique" banayenge usi Confetti logic ke saath jo aapne pehle sikha tha.
+
+Aapka Mission:
+
+Input Field: Ek text box jahan user item ka naam likhe (e.g., "Bread").
+
+Add Button: Click karte hi wo item niche list mein add ho jaye.
+
+Delete Button: Har item ke saath ek "Delete" (ya 🗑️) button ho.
+
+Special Effect: Jab koi item delete ho, toh screen par ek chhota sa confetti blast hona chahiye (Celebration of finishing a task!).
+
+Is Phase mein aap kya seekhenge?
+Handling Arrays in State: useState([]) ka use karke list ko store karna.
+
+The .map() Function: Array ke har item ko JSX mein convert karna.
+
+Unique Keys: Har list item ko ek key dena kyun zaroori hai.
+
+Filtering: List se item delete karne ke liye .filter() ka use.
