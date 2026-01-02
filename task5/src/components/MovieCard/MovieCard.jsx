@@ -1,10 +1,20 @@
-import React from 'react'
+import React from "react";
 import './MovieCard.css'
 
-const MovieCard = () => {
-  return (
-    <div>MovieCard</div>
-  )
-}
+const MovieCard = ({ movie }) => {
+  if (!movie) return null;
+  const poster =
+    movie.Poster !== "N/A"
+      ? movie.Poster
+      : "https://via.placeholder.com/300x450?text=No+Image";
 
-export default MovieCard
+  return (
+    <div className="movie-card">
+      <img src={poster} alt={movie.Title} />
+      <h3>{movie.Title}</h3>
+      <p>{movie.Year}</p>
+    </div>
+  );
+};
+
+export default MovieCard;
