@@ -1,0 +1,19 @@
+Phase 5 Task: "The Movie Encyclopedia" (Navigation & Details)
+Abhi tak tumhari app sirf movies ki list dikha rahi thi. Ab hum ise ek poori website banayenge jisme Routing hogi.
+
+Aapka Mission:
+
+Home Page (/): Yahan wahi movie search bar aur list hogi jo tumne pehle banayi.
+
+Detail Page (/movie/:id): Jab user kisi movie card par click kare, toh wo ek naye page par chala jaye jahan us movie ki poori detail ho (Plot, Actors, Ratings, Director).
+
+Navbar: Ek simple navigation bar jo har page par dikhe (Home aur About links ke saath).
+
+Isme tum kya naya seekhoge?
+React Router DOM: Browser ki URL history ko manage karna.
+
+BrowserRouter, Routes, Route: Routes setup karne ke liye.
+
+Link Component: Bina page refresh kiye navigate karne ke liye (<a> tag ka upgrade).
+
+useParams Hook: URL se ID nikalne ke liye (e.g., /movie/tt12345 se tt12345 lena).
